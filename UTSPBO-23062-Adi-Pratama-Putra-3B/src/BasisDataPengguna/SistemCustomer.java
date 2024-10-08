@@ -20,7 +20,7 @@ public class SistemCustomer implements InterfacePengguna {
     private int umur; // UMUR CUSTOMER
     private Scanner scanner = new Scanner(System.in);
 
-    @Override // POLIMORFISME
+    @Override // POLYMORPHISM
     public void inputData() {
         System.out.println("\n\n\n=============== MASUKKAN DATA PRIBADI ===============");
         System.out.println("=====================================================");
@@ -35,14 +35,14 @@ public class SistemCustomer implements InterfacePengguna {
 
     // GETNAMA MEMBANTU UNTUK MENAMPILKAN NAMA PADA DETAIL PESANAN
     // DAN AKAN DITAMPILKAN KEMBALI DI DETAIL PESANAN
-    @Override // POLIMORFISME
+    @Override // POLYMORPHISM
     public String getNama() {
         return nama;
     }
 
     // GETNOMOR IDENTITAS MEMBANTU UNTUK MENAMPILKAN NOMOR IDENTITAS PADA DETAIL PESANAN
     // DAN AKAN DITAMPILKAN KEMBALI DI DETAIL PESANAN
-    @Override // POLIMORFISME
+    @Override // POLYMORPHISM
     public String getNomorIdentitas() {
         return nomorIdentitas;
     }
