@@ -20,7 +20,7 @@ public class SistemCustomer implements InterfacePengguna {
     private int umur; // UMUR CUSTOMER
     private Scanner scanner = new Scanner(System.in);
 
-    @Override
+    @Override // POLIMORFISME
     public void inputData() {
         System.out.println("\n\n\n=============== MASUKKAN DATA PRIBADI ===============");
         System.out.println("=====================================================");
